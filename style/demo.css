@@ -1,0 +1,57 @@
+.demo {
+  position: relative;
+  width: 300px;
+  padding: 10px 0;
+}
+
+.demo .square, .demo .circle, .demo .cup {
+  pointer-events: none;
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background-color: currentColor;
+  font-size: 14px;
+}
+
+.demo .circle, .demo .cup {
+  border-radius: 50%;
+}
+
+.demo .cup {
+  background-color: rgba(0, 0, 0, 0.0);
+  margin: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dbf;
+}
+
+.demo .extra {
+  position: absolute;
+}
+
+.demo .shadow {
+  opacity: 0.2;
+}
+.demo code.shadow {
+  opacity: 0.4;
+}
+
+.demo .new {
+  color: #BA2158;
+}
+
+.demo .old {
+  color: #7049da;
+}
+
+.demo .align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.demo .start-right {
+  transform: translateX(280px);
+}
+.demo .start-center {
+  transform: translateX(140px);
+}

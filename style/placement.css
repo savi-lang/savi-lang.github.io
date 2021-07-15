@@ -1,0 +1,155 @@
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+
+html, body {
+  margin: 0;
+}
+
+.root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.row-remainder {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.column-remainder {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.section-top {
+  height: 70px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section-bottom {
+  align-items: center;
+}
+
+.section-bottom.section-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-main {
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.section-left {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+}
+.section-bottom.section-left {
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-mid {
+  width: 314px;
+  max-width: 314px;
+  min-width: 314px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-right {
+  flex: 1;
+  min-width: 240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-mid>.content {
+  max-width: 314px;
+  min-width: 314px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-right>.content {
+  max-width: 700px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 840px) {
+  .section-top.section-right {
+    display: none;
+  }
+  .section-mid {
+    width: 100%;
+    max-width: 100%;
+    flex: 1;
+    padding-left: auto;
+  }
+  .section-bottom.section-mid {
+    height: inherit;
+    min-height: inherit;
+    max-height: inherit;
+  }
+  .section-main>.row-reverse {
+    flex-direction: column;
+  }
+  .section-main>.row-reverse>.row-remainder {
+    height: 100%;
+    flex-grow: 1;
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .root {
+    display: block;
+  }
+  .root-top {
+    display: block;
+  }
+  .section-top.section-left {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .section-top.section-mid {
+    box-sizing: border-box;
+  }
+  .section-bottom.section-left {
+    display: none;
+  }
+}

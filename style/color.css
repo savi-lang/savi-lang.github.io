@@ -1,0 +1,76 @@
+html,
+body, .doc-main {
+  background-color: #221E23;
+  color: #F6F4F2;
+}
+
+.section-top.section-left {
+  background-color: #0d0c0e;
+}
+
+.section-top.section-mid, .section-bottom.section-left {
+  background-color: #151216;
+}
+
+.section-top.section-right, .section-bottom.section-mid {
+  background-color: #1B181C;
+}
+
+body, .section-bottom.section-right {
+  background-color: #221E23;
+}
+
+.section-top {
+  border-top: 2px solid #513B80;
+  border-bottom: 2px solid #8A6CDE;
+}
+
+.root-bottom {
+  border-bottom: 2px solid #513B80;
+}
+
+.section-left {
+  border-left: 2px solid #CB3B6F;
+  border-right: 2px solid #BA2158;
+}
+
+.section-mid {
+  border-right: 2px solid #843779;
+}
+
+.section-right {
+  border-left: 0px solid #783879; /* pointless here but we use it in mobile */
+  border-right: 2px solid #783879;
+}
+
+a {
+  color: #6186ff;
+}
+a:hover {
+  color: #bbafff;
+}
+
+em {
+  opacity: 1;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+hr {
+  border: 1px solid #1B181C;
+}
+
+@media only screen and (max-width: 840px) {
+  hr {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .section-top.section-mid {
+    border-top: none;
+  }
+  .section-bottom.section-right {
+    border-left-width: 2px;
+  }
+}

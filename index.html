@@ -1,0 +1,222 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Savi • A fast language for programmers who are passionate about their craft.</title>
+
+    <meta property="og:title" content="Savi">
+    <meta property="og:url" content="https://savi-lang.github.io">
+    <meta property="og:description" content="A fast language for programmers who are passionate about their craft.">
+    <meta property="og:image" content="https://savi-lang.github.io/assets/logo.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@savi-lang">
+    <meta name="twitter:creator" content="@savi-lang">
+    <meta name="twitter:title" content="Savi">
+    <meta name="twitter:description" content="A fast language for programmers who are passionate about their craft.">
+    <meta name="twitter:image" content="https://savi-lang.github.io/assets/logo.png">
+
+    <link rel="apple-touch-icon-precomposed" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicon.png" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/placement.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/color.css">
+    <link rel="stylesheet" href="style/icon.css">
+    <link rel="stylesheet" href="style/demo.css">
+  </head>
+  <body>
+    <div class="root">
+      <div class="row root-top">
+        <header class="row section-top section-left">
+          <img src="assets/logo.png" height="70px"/>
+          <div class="row-remainder"></div>
+          <div class="row flex-center" style="margin-right: 5px;">
+            <div class="column flex-center">
+              <img src="https://simpleicons.org/icons/github.svg"
+                height="18px" class="icon-button icon-filter-light"/>
+              <img src="https://simpleicons.org/icons/windowsterminal.svg"
+                height="18px" class="icon-button icon-filter-light"/>
+            </div>
+            <div class="column flex-center">
+              <img src="https://simpleicons.org/icons/twitter.svg"
+                height="18px" class="icon-button icon-filter-light"/>
+              <img src="https://simpleicons.org/icons/twitch.svg"
+                height="18px" class="icon-button icon-filter-light"/>
+            </div>
+          </div>
+        </header>
+        <header class="row section-top section-mid">
+          <h1>Aliasing</h1>
+        </header>
+        <header class="section-top section-right">
+        </header>
+      </div>
+      <div class="row root-bottom column-remainder">
+        <section class="section-bottom section-left">
+          <h1>Tutorial</h1>
+          <ul>
+            <li>Aliasing</li>
+          </ul>
+        </section>
+        <div class="column section-main row-remainder">
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <p>A variable is a container for a value of a particular type.</p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="cup" style="transform: translateX(140px);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>When initialized, the variable is known to be holding a value of that type.</p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle old" style="transform: translateX(140px);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>We can read a value from it when we refer to it by name.</p>
+                <p>But if it's an <em>isolated</em> type, the isolated root is still held by the variable, so the value we read is only an <em>alias</em>, heavily restricting what we are allowed to do with it.</p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra circle old shadow outgoing" style="transform: translateX(140px);"></div>
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle old" style="transform: translateX(140px);"></div>
+                  <code class="big" style="transform: translateX(141px);">
+                    <code class="old shadow">(</code>x<code class="old shadow">)</code>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>To extract an isolated value from a variable, we must <em>consume</em> it.</p>
+                <p>This leaves the variable holding nothing, so reading from it is no longer allowed.</p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle old outgoing" style="transform: translateX(140px);"></div>
+                  <code class="big" style="transform: translateX(123px);">
+                    <code class="old">(</code>--x<code class="old">)</code>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>To fill an empty variable, we can <em>assign</em> a new value to it.</p>
+                <p>The result value that comes out of such an expression is the <em>alias</em> of the new value.</p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra circle new shadow outgoing" style="transform: translateX(280px);"></div>
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle new incoming" style="transform: translateX(280px);"></div>
+                  <code class="big" style="transform: translateX(142px);">
+                    <code class="new shadow">(</code>x =
+                    <code class="new">Thing.new</code><code class="new shadow">)</code>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>This is also true for a variable that is already holding a value.</p>
+                <p>The alias of the new value is returned and <em>the old value is lost.</em></p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra circle new shadow outgoing" style="transform: translateX(280px);"></div>
+                  <div class="extra circle old" style="transform: translateX(140px);"></div>
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle new incoming" style="transform: translateX(280px);"></div>
+                  <code class="big" style="transform: translateX(142px);">
+                    <code class="new shadow">(</code>x =
+                    <code class="new">Thing.new</code><code class="new shadow">)</code>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-reverse">
+            <div class="section-bottom section-right">
+              <div class="content">
+                <hr>
+                <p>To capture the old value we can use <em>displacing assignment</em>.</p>
+                <p>The fully isolated old value is returned, because the new value has taken its place in the variable.</em></p>
+              </div>
+            </div>
+            <div class="section-bottom section-mid">
+              <div class="content">
+                <div class="demo">
+                  <div class="extra circle old outgoing" style="transform: translateX(140px);"></div>
+                  <div class="extra cup" style="transform: translateX(140px);"></div>
+                  <div class="circle new incoming" style="transform: translateX(280px);"></div>
+                  <code class="big" style="transform: translateX(142px);">
+                    <code class="old">(</code>x <<=
+                    <code class="new">Thing.new</code><code class="old">)</code>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-remainder">
+            <div class="section-bottom section-mid"></div>
+            <div class="section-bottom section-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.1.0/markdown-it.min.js" integrity="sha512-PKP2kuWuLFN4vcsGg5MQI/Z7AzGsQZGiVCpmchDik0hWie1MCx1k+lGn7YJNoU77NyufcFi2ra21exAdEIIXNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/markdown.js"></script>
+  </body>
+</html>
