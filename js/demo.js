@@ -3,6 +3,7 @@ anime({
   loop: true,
   keyframes: [{ translateX: 140 }, { translateX: 140 }],
   duration: 2500,
+  endDelay: 500,
   easing: "easeInSine",
 });
 
@@ -14,4 +15,5 @@ anime({
     { translateX: 0, easing: "easeOutSine" },
   ],
   duration: 2500,
+  endDelay: 500,
 });
