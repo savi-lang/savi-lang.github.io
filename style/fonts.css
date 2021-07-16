@@ -46,6 +46,15 @@ li::marker {
   padding-inline-start: 20px;
 }
 
+pre {
+  font-size: 12px;
+}
+
+p>code {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 code.big {
   font-size: 16px;
   display: block;

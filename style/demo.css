@@ -1,7 +1,8 @@
 .demo {
   position: relative;
-  width: 300px;
+  width: 310px;
   padding: 10px 0;
+  overflow: hidden;
 }
 
 .demo .square, .demo .circle, .demo .cup {
@@ -44,14 +45,30 @@
   color: #7049da;
 }
 
+.demo .plain {
+  color: #F6F4F2;
+}
+
 .demo .align-center {
   display: flex;
   justify-content: center;
 }
 
-.demo .start-right {
-  transform: translateX(280px);
+.demo .struct {
+  padding: 2px 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  background-color: currentColor;
+  display: flex;
+  flex-direction: row;
+  width: max-content;
 }
-.demo .start-center {
-  transform: translateX(140px);
+
+.demo code.with-bg {
+  padding: 0 4px;
+  margin: 0 2px;
+  border-radius: 8px;
+  background-color: #1B181C;
 }
+

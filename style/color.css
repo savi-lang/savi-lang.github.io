@@ -52,8 +52,22 @@ a:hover {
 
 em {
   opacity: 1;
-  font-weight: 700;
+  font-weight: 600;
   font-family: sans-serif;
+}
+
+pre {
+  padding: 5px 0;
+  border-radius: 8px;
+  color: #F6F4F2;
+  background-color: #0d0c0e;
+}
+
+p>code {
+  padding: 0 4px;
+  border-radius: 8px;
+  color: #cbbbf7;
+  background-color: #0d0c0e;
 }
 
 hr {
