@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6,
   /* font-family: 'Comfortaa', sans-serif; */
   /* font-family: 'Didact Gothic', sans-serif; */
   font-family: 'Darker Grotesque', sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.042em;
   font-kerning: none;
   opacity: 0.8;
 }
@@ -17,16 +17,20 @@ a {
   text-decoration: none;
   font-weight: 900;
 }
+li a {
+  text-decoration: none;
+  font-weight: 500;
+}
 
 header h1 {
-  font-size: 40px;
+  font-size: 37.5px;
   margin-top: auto;
   margin-bottom: 0;
 }
 
 .section-left h1 {
   font-size: 32px;
-  margin-left: 20px;
+  margin-left: 5px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -61,3 +65,6 @@ code.big {
   padding: 5px 0;
   font-weight: 900;
 }
+
+.highlight .gs  { font-weight: bold; }
+.highlight .ge  { font-style: italic; }

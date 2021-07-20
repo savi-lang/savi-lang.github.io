@@ -116,6 +116,10 @@ html, body {
   margin-right: 10px;
 }
 
+pre {
+  overflow: auto;
+}
+
 @media only screen and (max-width: 840px) {
   .section-top.section-right {
     display: none;
