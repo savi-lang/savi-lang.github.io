@@ -1,0 +1,17 @@
+title: Savi
+description: >-
+  A fast language for programmers who are passionate about their craft.
+baseurl: "" # the subpath of the site (currently none)
+url: "https://savi-lang.github.io"
+twitter_username: savi-lang
+github_username: savi-lang
+
+# The collections subdirectories to look for and build.
+collections:
+  concepts:
+    output: true
+    permalink: /:collection/:name
+    order:
+      - concurrency-safety.md
+      - mutability.md
+      - aliasing.md

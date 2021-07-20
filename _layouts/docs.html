@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="row root-top">
+  <header class="row section-top section-left">
+    <img src="/assets/img/logo.png" height="70px"/>
+    <div class="row-remainder"></div>
+    <div class="row flex-center" style="margin-right: 5px;">
+      <div class="column flex-center">
+        <img src="https://simpleicons.org/icons/github.svg"
+          height="18px" class="icon-button icon-filter-light"/>
+        <img src="https://simpleicons.org/icons/windowsterminal.svg"
+          height="18px" class="icon-button icon-filter-light"/>
+      </div>
+      <div class="column flex-center">
+        <img src="https://simpleicons.org/icons/twitter.svg"
+          height="18px" class="icon-button icon-filter-light"/>
+        <img src="https://simpleicons.org/icons/twitch.svg"
+          height="18px" class="icon-button icon-filter-light"/>
+      </div>
+    </div>
+  </header>
+  <header class="row section-top section-mid">
+    <h1>{{ page.name }}</h1>
+  </header>
+  <header class="section-top section-right">
+  </header>
+</div>
+<div class="row root-bottom column-remainder">
+  <section class="section-bottom section-left">
+    {% for collection in site.collections %}
+      {% if collection.docs.size > 0 %}
+        <h1>{{ collection.label | capitalize }}</h1>
+        <ul>
+          {% for item in collection.docs %}
+            <li>
+              <a href="{{ item.url }}" class="{% if item.name == page.name %}current{% endif %}">
+                {{ item.name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  </section>
+  <div class="column section-main row-remainder">
+    {{ content }}
+    <div class="row row-remainder">
+      <div class="section-bottom section-mid"></div>
+      <div class="section-bottom section-right"></div>
+    </div>
+  </div>
+</div>

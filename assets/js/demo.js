@@ -61,33 +61,32 @@ anime({
   loop: true,
   textContent: [0, 100],
   round: 1,
-  easing: "linear",
+  easing: 'linear',
   duration: 2500 * 100,
 });
 
 const incNumber2A = document.querySelector(".demo .inc-number-2a");
-if (incNumber2A) {
+if (incNumber2A)
   anime({
     targets: incNumber2A,
     loop: true,
-    update: function (anim) {
-      incNumber2A.textContent = Math.round(anim.currentTime / 5000) * 2;
+    update: function(anim) {
+      incNumber2A.textContent =
+        Math.round(anim.currentTime / 5000) * 2;
     },
-    easing: "linear",
+    easing: 'linear',
     duration: 2500 * 100,
   });
-}
 
 const incNumber2B = document.querySelector(".demo .inc-number-2b");
-if (incNumber2B) {
+if (incNumber2B)
   anime({
     targets: incNumber2B,
     loop: true,
-    update: function (anim) {
+    update: function(anim) {
       incNumber2B.textContent =
         Math.round((anim.currentTime + 2500) / 5000) * 2 - 1;
     },
-    easing: "linear",
+    easing: 'linear',
     duration: 2500 * 100,
   });
-}
