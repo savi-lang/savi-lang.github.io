@@ -21,4 +21,4 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }}
-          cname: '' # TODO: Use `savi.zone` CNAME
+          cname: 'savi.zone'
