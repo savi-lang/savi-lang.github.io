@@ -53,6 +53,10 @@ html, body {
   width: max-content;
 }
 
+#logo {
+  height: 70px;
+}
+
 .section-top {
   height: 70px;
   overflow-x: hidden;
