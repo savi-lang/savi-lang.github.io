@@ -1,6 +1,8 @@
 ---
 name: Mutability
 layout: docs
+description: >
+  Learn about how mutable and immutable access patterns are represented and enforced in Savi, and how they can coexist without compromising safety guarantees.
 ---
 
 Let's look at reference capabilities, starting with the most basic one: `ref`.
