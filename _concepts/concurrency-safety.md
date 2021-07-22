@@ -10,6 +10,15 @@ Parallel programs run on many threads of execution at the same time.
 
 To make them safe and predictable, we need to ensure they're not conflicting with each other as they operate on data.
 
+```html demo
+<link rel="stylesheet" href="{{ '/assets/css/i/concepts/concurrency-safety.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/assets/css/i-shared/gears.css' | relative_url }}" />
+{% include i/concepts/concurrency-safety-1.svg %}
+
+```
+
+---
+
 Preventing data races can be boiled down to two simple rules:
 
 ---

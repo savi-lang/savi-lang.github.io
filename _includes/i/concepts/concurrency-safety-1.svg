@@ -1,0 +1,165 @@
+<svg class="i-concepts-concurrency-safety" width="304" height="150" viewBox="0 0 304 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Reads -->
+<path class="read flash-5" d="M38.0283 108.157L30.4893 116.278L41.5107 119.722L39.9372 108.753L38.0283 108.157ZM50.0455 69.7017L37.73 109.111L39.639 109.708L51.9545 70.2983L50.0455 69.7017Z"/>
+<path class="read flash-2" d="M41.7487 109.757L31.6164 114.243L40.3836 121.757L43.2672 111.058L41.7487 109.757ZM101.241 40.3492L41.0979 110.516L42.6164 111.817L102.759 41.6508L101.241 40.3492Z"/>
+<path class="read flash-8" d="M127.338 109.097L126.644 120.156L137.356 115.844L129.193 108.35L127.338 109.097ZM100.072 41.3735L127.711 110.025L129.566 109.278L101.928 40.6265L100.072 41.3735Z"/>
+<path class="read flash-1" d="M76.2385 112.244L65.1809 112.962L70.8191 123.038L77.2151 113.99L76.2385 112.244ZM151.512 70.1273L75.3659 112.733L76.3424 114.478L152.488 71.8727L151.512 70.1273Z"/>
+<path class="read flash-3" d="M144.934 100.994L138.333 109.894L149.667 112.106L146.897 101.377L144.934 100.994ZM151.019 69.8085L144.742 101.975L146.705 102.358L152.981 70.1915L151.019 69.8085Z"/>
+<path class="read flash-9" d="M211.846 126.126L216.176 136.326L223.824 127.674L213.17 124.627L211.846 126.126ZM150.338 71.7492L212.595 126.788L213.92 125.29L151.662 70.2508L150.338 71.7492Z"/>
+<path class="read flash-3" d="M149.61 102.662L139.554 107.316L148.446 114.684L151.15 103.938L149.61 102.662ZM201.23 40.362L148.972 103.432L150.512 104.708L202.77 41.638L201.23 40.362Z"/>
+<path class="read flash-1" d="M192.175 114.952L186.266 124.325L197.734 125.675L194.162 115.185L192.175 114.952ZM201.007 39.8832L192.058 115.945L194.045 116.178L202.993 40.1168L201.007 39.8832Z"/>
+<path class="read flash-7" d="M238.296 109.725L238.944 120.787L249.056 115.213L240.048 108.76L238.296 109.725ZM200.124 40.4828L238.779 110.601L240.531 109.636L201.876 39.5172L200.124 40.4828Z"/>
+<path class="read flash-1" d="M198.764 117.567L188.138 120.709L195.862 129.291L200.102 119.054L198.764 117.567ZM251.331 70.2567L198.021 118.236L199.359 119.723L252.669 71.7433L251.331 70.2567Z"/>
+<path class="read flash-3" d="M263.831 108.856L262.535 119.861L273.465 116.139L265.724 108.211L263.831 108.856ZM251.053 71.3223L264.153 109.802L266.046 109.158L252.947 70.6777L251.053 71.3223Z"/>
+
+<!-- Data -->
+<circle class="data" cx="24" cy="139" r="3"/>
+<circle class="data" cx="32" cy="139" r="3"/>
+<circle class="data" cx="40" cy="139" r="3"/>
+<circle class="data" cx="48" cy="139" r="3"/>
+<circle class="data" cx="56" cy="139" r="3"/>
+<circle class="data" cx="64" cy="139" r="3"/>
+<circle class="data" cx="72" cy="139" r="3"/>
+<circle class="data" cx="80" cy="139" r="3"/>
+<circle class="data" cx="88" cy="139" r="3"/>
+<circle class="data" cx="96" cy="139" r="3"/>
+<circle class="data" cx="104" cy="139" r="3"/>
+<circle class="data" cx="112" cy="139" r="3"/>
+<circle class="data" cx="120" cy="139" r="3"/>
+<circle class="data" cx="128" cy="139" r="3"/>
+<circle class="data" cx="136" cy="139" r="3"/>
+<circle class="data" cx="144" cy="139" r="3"/>
+<circle class="data" cx="152" cy="139" r="3"/>
+<circle class="data" cx="160" cy="139" r="3"/>
+<circle class="data" cx="168" cy="139" r="3"/>
+<circle class="data" cx="176" cy="139" r="3"/>
+<circle class="data" cx="184" cy="139" r="3"/>
+<circle class="data" cx="192" cy="139" r="3"/>
+<circle class="data" cx="200" cy="139" r="3"/>
+<circle class="data" cx="208" cy="139" r="3"/>
+<circle class="data" cx="216" cy="139" r="3"/>
+<circle class="data" cx="224" cy="139" r="3"/>
+<circle class="data" cx="232" cy="139" r="3"/>
+<circle class="data" cx="240" cy="139" r="3"/>
+<circle class="data" cx="248" cy="139" r="3"/>
+<circle class="data" cx="256" cy="139" r="3"/>
+<circle class="data" cx="264" cy="139" r="3"/>
+<circle class="data" cx="272" cy="139" r="3"/>
+<circle class="data" cx="280" cy="139" r="3"/>
+<circle class="data" cx="28" cy="132" r="3"/>
+<circle class="data" cx="36" cy="132" r="3"/>
+<circle class="data" cx="44" cy="132" r="3"/>
+<circle class="data" cx="52" cy="132" r="3"/>
+<circle class="data" cx="60" cy="132" r="3"/>
+<circle class="data" cx="68" cy="132" r="3"/>
+<circle class="data" cx="76" cy="132" r="3"/>
+<circle class="data" cx="84" cy="132" r="3"/>
+<circle class="data" cx="92" cy="132" r="3"/>
+<circle class="data" cx="100" cy="132" r="3"/>
+<circle class="data" cx="108" cy="132" r="3"/>
+<circle class="data" cx="116" cy="132" r="3"/>
+<circle class="data" cx="124" cy="132" r="3"/>
+<circle class="data" cx="132" cy="132" r="3"/>
+<circle class="data" cx="140" cy="132" r="3"/>
+<circle class="data" cx="148" cy="132" r="3"/>
+<circle class="data" cx="156" cy="132" r="3"/>
+<circle class="data" cx="164" cy="132" r="3"/>
+<circle class="data" cx="172" cy="132" r="3"/>
+<circle class="data" cx="180" cy="132" r="3"/>
+<circle class="data" cx="188" cy="132" r="3"/>
+<circle class="data" cx="196" cy="132" r="3"/>
+<circle class="data" cx="220" cy="132" r="3"/>
+<circle class="data" cx="228" cy="132" r="3"/>
+<circle class="data" cx="236" cy="132" r="3"/>
+<circle class="data" cx="244" cy="132" r="3"/>
+<circle class="data" cx="252" cy="132" r="3"/>
+<circle class="data" cx="260" cy="132" r="3"/>
+<circle class="data" cx="268" cy="132" r="3"/>
+<circle class="data" cx="276" cy="132" r="3"/>
+<circle class="data" cx="32" cy="125" r="3"/>
+<circle class="data" cx="40" cy="125" r="3"/>
+<circle class="data" cx="48" cy="125" r="3"/>
+<circle class="data" cx="56" cy="125" r="3"/>
+<circle class="data" cx="64" cy="125" r="3"/>
+<circle class="data" cx="72" cy="125" r="3"/>
+<circle class="data" cx="80" cy="125" r="3"/>
+<circle class="data" cx="88" cy="125" r="3"/>
+<circle class="data" cx="96" cy="125" r="3"/>
+<circle class="data" cx="104" cy="125" r="3"/>
+<circle class="data" cx="128" cy="125" r="3"/>
+<circle class="data" cx="136" cy="125" r="3"/>
+<circle class="data" cx="144" cy="125" r="3"/>
+<circle class="data" cx="152" cy="125" r="3"/>
+<circle class="data" cx="160" cy="125" r="3"/>
+<circle class="data" cx="168" cy="125" r="3"/>
+<circle class="data" cx="176" cy="125" r="3"/>
+<circle class="data" cx="184" cy="125" r="3"/>
+<circle class="data" cx="192" cy="125" r="3"/>
+<circle class="data" cx="232" cy="125" r="3"/>
+<circle class="data" cx="240" cy="125" r="3"/>
+<circle class="data" cx="248" cy="125" r="3"/>
+<circle class="data" cx="256" cy="125" r="3"/>
+<circle class="data" cx="264" cy="125" r="3"/>
+<circle class="data" cx="272" cy="125" r="3"/>
+<circle class="data" cx="36" cy="118" r="3"/>
+<circle class="data" cx="44" cy="118" r="3"/>
+<circle class="data" cx="52" cy="118" r="3"/>
+<circle class="data" cx="60" cy="118" r="3"/>
+<circle class="data" cx="68" cy="118" r="3"/>
+<circle class="data" cx="92" cy="118" r="3"/>
+<circle class="data" cx="100" cy="118" r="3"/>
+<circle class="data" cx="132" cy="118" r="3"/>
+<circle class="data" cx="140" cy="118" r="3"/>
+<circle class="data" cx="148" cy="118" r="3"/>
+<circle class="data" cx="156" cy="118" r="3"/>
+<circle class="data" cx="164" cy="118" r="3"/>
+<circle class="data" cx="172" cy="118" r="3"/>
+<circle class="data" cx="180" cy="118" r="3"/>
+<circle class="data" cx="236" cy="118" r="3"/>
+<circle class="data" cx="244" cy="118" r="3"/>
+<circle class="data" cx="252" cy="118" r="3"/>
+<circle class="data" cx="260" cy="118" r="3"/>
+<circle class="data" cx="268" cy="118" r="3"/>
+<circle class="data" cx="48" cy="111" r="3"/>
+<circle class="data" cx="56" cy="111" r="3"/>
+<circle class="data" cx="96" cy="111" r="3"/>
+<circle class="data" cx="144" cy="111" r="3"/>
+<circle class="data" cx="152" cy="111" r="3"/>
+<circle class="data" cx="248" cy="111" r="3"/>
+<circle class="data" cx="256" cy="111" r="3"/>
+
+<!-- Writes -->
+<path   class="write flash-1" d="M47.7324 100.954L42.2419 110.579L53.7581 111.421L49.7271 101.1L47.7324 100.954ZM50.0027 69.927L47.6594 101.951L49.6541 102.097L51.9973 70.073L50.0027 69.927Z"/>
+<circle class="write flash-1" cx="48" cy="111" r="3"/>
+<path   class="write flash-6" d="M74.2694 116.744L74.9531 127.804L85.047 122.196L76.0177 115.773L74.2694 116.744ZM49.1258 71.4856L74.7551 117.618L76.5034 116.647L50.8742 70.5144L49.1258 71.4856Z"/>
+<circle class="write flash-6" cx="80" cy="125" r="3"/>
+<path   class="write flash-6" d="M81.5376 115.068L74.4107 123.553L85.5893 126.447L83.4738 115.57L81.5376 115.068ZM101.032 39.7494L81.287 116.037L83.2232 116.538L102.968 40.2506L101.032 39.7494Z"/>
+<circle class="write flash-6" cx="80" cy="125" r="3"/>
+<path   class="write flash-5" d="M95.8456 100.951L90.247 110.514L101.753 111.486L97.8385 101.12L95.8456 100.951ZM101.004 39.9158L95.7614 101.948L97.7543 102.116L102.996 40.0842L101.004 39.9158Z"/>
+<circle class="write flash-5" cx="96" cy="111" r="3"/>
+<path   class="write flash-7" d="M135.07 108.431L126.705 115.698L137.295 120.302L136.904 109.228L135.07 108.431ZM151.083 71.6013L134.671 109.348L136.506 110.145L152.917 72.3987L151.083 71.6013Z"/>
+<circle class="write flash-7" cx="132" cy="118" r="3"/>
+<path   class="write flash-2" d="M173.946 109.978L175.068 121.002L184.932 114.998L175.655 108.938L173.946 109.978ZM151.146 72.5199L174.466 110.832L176.175 109.792L152.854 71.4801L151.146 72.5199Z"/>
+<circle class="write flash-2" cx="180" cy="118" r="3"/>
+<path   class="write flash-8" d="M206.355 129.093L202.313 139.41L213.83 138.579L208.349 128.949L206.355 129.093ZM200.003 41.072L206.427 130.09L208.421 129.946L201.997 40.928L200.003 41.072Z"/>
+<circle class="write flash-8" cx="208" cy="139" r="3"/>
+<path   class="write flash-9" d="M223.76 122.68L214.887 129.318L225.113 134.682L225.531 123.609L223.76 122.68ZM251.114 70.5355L223.295 123.566L225.066 124.495L252.886 71.4645L251.114 70.5355Z"/>
+<circle class="write flash-9" cx="220" cy="132" r="3"/>
+<path   class="write flash-4" d="M247.976 100.95L242.254 110.439L253.746 111.561L249.966 101.144L247.976 100.95ZM251.005 69.9029L247.879 101.945L249.869 102.14L252.995 70.0971L251.005 69.9029Z"/>
+<circle class="write flash-4" cx="248" cy="111" r="3"/>
+
+<!-- Threads -->
+<g transform="translate(29 34)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(80 4)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(130 34)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(180 4)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(230 34)">{% include i-shared/gears.svg %}</g>
+
+<!-- Conflicts -->
+<g class="conflict">
+  <path class="flash-6" d="M80 107L82.3515 118.539L91.5702 111.211L85.9543 121.562L97.7265 121.874L86.7709 126.194L95.5885 134L84.4194 130.267L86.1564 141.914L80 131.875L73.8436 141.914L75.5806 130.267L64.4115 134L73.2291 126.194L62.2735 121.874L74.0457 121.562L68.4298 111.211L77.6485 118.539L80 107Z"/>
+  <path class="flash-9" d="M220 114L222.352 125.539L231.57 118.211L225.954 128.562L237.727 128.874L226.771 133.194L235.588 141L224.419 137.267L226.156 148.914L220 138.875L213.844 148.914L215.581 137.267L204.412 141L213.229 133.194L202.273 128.874L214.046 128.562L208.43 118.211L217.648 125.539L220 114Z"/>
+</g>
+
+</svg>

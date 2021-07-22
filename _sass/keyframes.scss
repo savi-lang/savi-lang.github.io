@@ -1,10 +1,11 @@
 $keyframes-number: null;
+$keyframes-base: '';
 
 // Generate a unique keyframes name and set it as the animation-name value.
 @mixin keyframes {
   $keyframes-number: 0 !default !global;
   $keyframes-number: $keyframes-number + 1 !global;
-  $name: unquote("savi-keyframes-#{$keyframes-number}");
+  $name: unquote("savi-#{$keyframes-base}-#{$keyframes-number}");
   animation-name: $name;
   @at-root {
     @keyframes #{$name} {

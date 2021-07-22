@@ -1,0 +1,105 @@
+---
+# (required by jekyll)
+---
+
+@import "keyframes";
+
+$keyframes-base: 'i-concepts-concurrency-safety';
+.i-concepts-concurrency-safety {
+
+path.read    { fill: #5627BA; }
+path.write   { fill: #FF734E; }
+circle.data  { fill: #8A6CDE; }
+circle.write { fill: #F7EF75; }
+.conflict    { fill: #FF2323; mix-blend-mode: screen; }
+
+.flash-1 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    10%  { opacity: 1; }
+    20%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-2 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    10%  { opacity: 0; }
+    20%  { opacity: 1; }
+    30%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-3 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    20%  { opacity: 0; }
+    30%  { opacity: 1; }
+    40%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-4 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    30%  { opacity: 0; }
+    40%  { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-5 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    40%  { opacity: 0; }
+    50%  { opacity: 1; }
+    60%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-6 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    60%  { opacity: 1; }
+    70%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-7 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    60%  { opacity: 0; }
+    70%  { opacity: 1; }
+    80%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-8 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    70%  { opacity: 0; }
+    80%  { opacity: 1; }
+    90%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}
+.flash-9 {
+  animation: 4s ease-in-out infinite;
+  @include keyframes {
+    0%   { opacity: 0; }
+    80%  { opacity: 0; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+  }
+}
+
+}
