@@ -34,7 +34,7 @@ If *I'm reading* data, *no other thread can write* to that data at the same time
 
 ## Rule 2: Safe Writes
 
-If *I'm writing* data, *no other thread can write* that data at the same time.
+If *I'm writing* data, *no other thread can write* to that data at the same time.
 
 ```html demo
 {% include i/concepts/concurrency-safety-3.svg %}
