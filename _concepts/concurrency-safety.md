@@ -1,7 +1,11 @@
 ---
 name: Concurrency Safety
 layout: docs
+description: >
+  Learn about approaches for making programs safe from data races,
+  and how Savi incorporates these ideas to guarantee safety.
 ---
+
 Parallel programs run on many threads of execution at the same time.
 
 To make them safe and predictable, we need to ensure they're not conflicting with each other as they operate on data.

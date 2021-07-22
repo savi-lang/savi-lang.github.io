@@ -8,6 +8,12 @@ github_username: savi-lang
 
 # The collections subdirectories to look for and build.
 collections:
+  index:
+    output: true
+    permalink: /:name
+    order:
+      - concepts.md
+      - tutorial.md
   concepts:
     output: true
     permalink: /:collection/:name

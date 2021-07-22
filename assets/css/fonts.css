@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.042em;
   font-kerning: none;
   opacity: 0.8;
+  margin-top: 0;
 }
 
 a {
@@ -29,7 +30,7 @@ header h1 {
 }
 
 .section-left h1 {
-  font-size: 32px;
+  font-size: 28px;
   margin-left: 5px;
   margin-top: 0;
   margin-bottom: 0;

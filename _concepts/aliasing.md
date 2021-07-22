@@ -1,6 +1,8 @@
 ---
 name: Aliasing
 layout: docs
+description: >
+  Learn about how uniqueness of ownership is preserved for isolated values, and how to alias or extract such values from a variable.
 ---
 
 A variable is a container for a value of a particular type.
