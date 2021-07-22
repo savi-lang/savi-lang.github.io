@@ -25,7 +25,7 @@ The `birthday` function is able to modify the age field because `ref` denotes a 
 <div class="center struct old">
   <code class="big with-bg plain">ref</code>
   <code class="big with-bg plain">"Alice"</code>
-  <code class="big with-bg plain inc-number">0</code>
+  <code class="big with-bg plain inc-number"></code>
 </div>
 <code class="center big flash-opaque" style="opacity: 0">birthday</code>
 ```
@@ -52,12 +52,12 @@ And indeed, the type system will not allow a `val` function to modify anything -
 <div class="center struct old seq-a">
   <code class="big with-bg plain">val</code>
   <code class="big with-bg plain">"Alice"</code>
-  <code class="big with-bg plain inc-number-2a">0</code>
+  <code class="big with-bg plain inc-number-2a"></code>
 </div>
 <div class="center struct new seq-b" style="opacity: 0; transform: translateX(80px);">
   <code class="big with-bg plain">val</code>
   <code class="big with-bg plain">"Alice"</code>
-  <code class="big with-bg plain inc-number-2b">0</code>
+  <code class="big with-bg plain inc-number-2b"></code>
 </div>
 <code class="center big flash-opaque" style="opacity: 0">birthday</code>
 ```
