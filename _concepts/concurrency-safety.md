@@ -14,7 +14,6 @@ To make them safe and predictable, we need to ensure they're not conflicting wit
 <link rel="stylesheet" href="{{ '/assets/css/i/concepts/concurrency-safety.css' | relative_url }}" />
 <link rel="stylesheet" href="{{ '/assets/css/i-shared/gears.css' | relative_url }}" />
 {% include i/concepts/concurrency-safety-1.svg %}
-
 ```
 
 ---
@@ -27,8 +26,8 @@ Preventing data races can be boiled down to two simple rules:
 
 If *I'm reading* data, *no other thread can write* to that data at the same time.
 
-```
-TODO: Illustration
+```html demo
+{% include i/concepts/concurrency-safety-2.svg %}
 ```
 
 ---
@@ -37,10 +36,8 @@ TODO: Illustration
 
 If *I'm writing* data, *no other thread can write* that data at the same time.
 
-And as a corollary of Rule 1, *no other thread can read* it either.
-
-```
-TODO: Illustration
+```html demo
+{% include i/concepts/concurrency-safety-3.svg %}
 ```
 
 ---
