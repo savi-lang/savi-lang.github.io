@@ -6,6 +6,9 @@ url: "https://savi-lang.github.io"
 twitter_username: savi-lang
 github_username: savi-lang
 
+sass:
+  style: compact
+
 # The collections subdirectories to look for and build.
 collections:
   index:
