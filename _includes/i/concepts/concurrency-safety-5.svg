@@ -1,0 +1,114 @@
+<svg class="i-concepts-concurrency-safety" width="304" height="116" viewBox="0 0 304 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bounds -->
+<rect class="bounds bounded" x="16" y="6" width="62" height="104" rx="6"/>
+<rect class="bounds bounded" x="86" y="6" width="62" height="104" rx="6"/>
+<rect class="bounds bounded" x="156" y="6" width="62" height="104" rx="6"/>
+<rect class="bounds bounded" x="226" y="6" width="62" height="104" rx="6"/>
+
+<!-- Iso Bounds -->
+<g class="iso reappearing-late" transform-origin="47 89">
+<circle class="iso bounds" cx="47" cy="89" r="14"/>
+<circle class="bounded" cx="47" cy="89" r="13"/>
+</g>
+<g class="iso rightward-70-late" transform-origin="47 89">
+<circle class="iso bounds" cx="47" cy="89" r="14"/>
+<circle class="bounded" cx="47" cy="89" r="13"/>
+</g>
+<g class="iso rightward-70-late" transform-origin="117 89">
+<circle class="iso bounds" cx="117" cy="89" r="14"/>
+<circle class="bounded" cx="117" cy="89" r="13"/>
+</g>
+<g class="iso rightward-70-late" transform-origin="187 89">
+<circle class="iso bounds" cx="187" cy="89" r="14"/>
+<circle class="bounded" cx="187" cy="89" r="13"/>
+</g>
+<g class="iso disappearing-late" transform-origin="257 89">
+<circle class="iso bounds" cx="257" cy="89" r="14"/>
+<circle class="bounded" cx="257" cy="89" r="13"/>
+</g>
+
+<!-- Reads -->
+<path class="read flash-3" d="M113.052 71.9503L107.258 81.3956L118.742 82.6044L115.041 72.1596L113.052 71.9503ZM116.005 43.8953L112.948 72.9448L114.937 73.1541L117.995 44.1047L116.005 43.8953Z"/>
+<path class="read flash-1" d="M122.058 79.3903L119.339 90.1323L130.661 87.8677L124.019 78.9981L122.058 79.3903ZM115.019 44.1961L122.254 80.3709L124.216 79.9787L116.981 43.8039L115.019 44.1961Z"/>
+<path class="read flash-2" d="M182.79 71.9523L177.244 81.5456L188.756 82.4544L184.784 72.1097L182.79 71.9523ZM185.003 43.9213L182.711 72.9492L184.705 73.1066L186.997 44.0787L185.003 43.9213Z"/>
+<path class="read flash-4" d="M252.79 71.9523L247.244 81.5456L258.756 82.4544L254.784 72.1097L252.79 71.9523ZM255.003 43.9213L252.711 72.9492L254.705 73.1066L256.997 44.0787L255.003 43.9213Z"/>
+<path class="read flash-1" d="M258.704 72.2159L255.276 82.7532L266.724 81.2468L260.687 71.955L258.704 72.2159ZM255.009 44.1305L258.834 73.2074L260.817 72.9465L256.991 43.8695L255.009 44.1305Z"/>
+<path class="read flash-3" d="M262.058 79.3903L259.339 90.1323L270.661 87.8677L264.019 78.9981L262.058 79.3903ZM255.019 44.1961L262.254 80.3709L264.216 79.9787L256.981 43.8039L255.019 44.1961Z"/>
+
+<!-- Iso Data -->
+<g class="reappearing-late" transform-origin="47 89">
+<circle class="data" cx="43" cy="96" r="3"/>
+<circle class="data" cx="51" cy="96" r="3"/>
+<circle class="data" cx="39" cy="89" r="3"/>
+<circle class="data" cx="47" cy="89" r="3"/>
+<circle class="data" cx="55" cy="89" r="3"/>
+<circle class="data" cx="43" cy="82" r="3"/>
+<circle class="data" cx="51" cy="82" r="3"/>
+</g>
+<g class="rightward-70-late" transform-origin="47 89">
+<circle class="data" cx="43" cy="96" r="3"/>
+<circle class="data" cx="51" cy="96" r="3"/>
+<circle class="data" cx="39" cy="89" r="3"/>
+<circle class="data" cx="47" cy="89" r="3"/>
+<circle class="data" cx="55" cy="89" r="3"/>
+<circle class="data" cx="43" cy="82" r="3"/>
+<circle class="data" cx="51" cy="82" r="3"/>
+</g>
+<g class="rightward-70-late" transform-origin="117 89">
+<circle class="data" cx="113" cy="96" r="3"/>
+<circle class="data" cx="121" cy="96" r="3"/>
+<circle class="data" cx="109" cy="89" r="3"/>
+<circle class="data" cx="117" cy="89" r="3"/>
+<circle class="data" cx="125" cy="89" r="3"/>
+<circle class="data" cx="113" cy="82" r="3"/>
+<circle class="data" cx="121" cy="82" r="3"/>
+</g>
+<g class="rightward-70-late" transform-origin="187 89">
+<circle class="data" cx="183" cy="96" r="3"/>
+<circle class="data" cx="191" cy="96" r="3"/>
+<circle class="data" cx="179" cy="89" r="3"/>
+<circle class="data" cx="187" cy="89" r="3"/>
+<circle class="data" cx="195" cy="89" r="3"/>
+<circle class="data" cx="183" cy="82" r="3"/>
+<circle class="data" cx="191" cy="82" r="3"/>
+</g>
+<g class="disappearing-late" transform-origin="257 89">
+<circle class="data" cx="253" cy="96" r="3"/>
+<circle class="data" cx="261" cy="96" r="3"/>
+<circle class="data" cx="249" cy="89" r="3"/>
+<circle class="data" cx="257" cy="89" r="3"/>
+<circle class="data" cx="265" cy="89" r="3"/>
+<circle class="data" cx="253" cy="82" r="3"/>
+<circle class="data" cx="261" cy="82" r="3"/>
+</g>
+
+<!-- Writes -->
+<path   class="write flash-1" d="M39.6197 78.9693L33.3015 88.0723L44.6985 89.9277L41.5938 79.2906L39.6197 78.9693ZM45.013 45.8393L39.4591 79.9563L41.4331 80.2776L46.987 46.1607L45.013 45.8393Z"/>
+<circle class="write flash-1" cx="39" cy="89" r="3"/>
+<path   class="write flash-4" d="M42.8339 71.9515L37.2464 81.5205L48.7536 82.4795L44.827 72.1176L42.8339 71.9515ZM45.0035 45.917L42.7509 72.948L44.744 73.1141L46.9965 46.083L45.0035 45.917Z"/>
+<circle class="write flash-4" cx="43" cy="82" r="3"/>
+<path   class="write flash-3" d="M48.6338 72.2326L45.2814 82.7943L56.7186 81.2057L50.6148 71.9575L48.6338 72.2326ZM45.0095 46.1376L48.7714 73.2231L50.7524 72.948L46.9905 45.8624L45.0095 46.1376Z"/>
+<circle class="write flash-3" cx="51" cy="82" r="3"/>
+<path   class="write flash-4" d="M109.766 78.9793L103.316 87.9894L114.684 90.0106L111.735 79.3294L109.766 78.9793ZM116.015 43.825L109.591 79.9639L111.56 80.314L117.985 44.175L116.015 43.825Z"/>
+<circle class="write flash-4" cx="109" cy="89" r="3"/>
+<path   class="write flash-2" d="M118.67 72.224L115.279 82.7732L126.721 81.2268L120.652 71.9562L118.67 72.224ZM115.009 45.1339L118.804 73.215L120.786 72.9471L116.991 44.8661L115.009 45.1339Z"/>
+<circle class="write flash-2" cx="121" cy="82" r="3"/>
+<path   class="write flash-1" d="M188.736 72.2083L185.273 82.7342L196.727 81.2658L190.72 71.954L188.736 72.2083ZM185.008 43.1272L188.864 73.2002L190.847 72.9459L186.992 42.8728L185.008 43.1272Z"/>
+<circle class="write flash-1" cx="191" cy="82" r="3"/>
+<path   class="write flash-4" d="M192.098 79.3781L189.334 90.1086L200.666 87.8914L194.061 78.9941L192.098 79.3781ZM185.019 43.192L192.291 80.3595L194.253 79.9755L186.981 42.808L185.019 43.192Z"/>
+<circle class="write flash-4" cx="195" cy="89" r="3"/>
+
+<!-- Creates -->
+<g class="flash-9-dimmish">
+<path class="create" d="M46 69L41.2265 79H52.7735L48 69H46ZM46 44V70H48V44H46Z"/>
+<circle class="create" cx="47" cy="89" r="17"/>
+</g>
+
+<!-- Threads -->
+<g transform="translate(25 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(95 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(165 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(235 8)">{% include i-shared/gears.svg %}</g>
+
+</svg>

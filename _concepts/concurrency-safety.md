@@ -50,8 +50,8 @@ Soon we'll see how Savi's type system exists to prove at compile time that your 
 
 A parallel program can be made safe by simply never sharing any data among threads. Data is strictly partitioned so that each thread is an exclusive owner of its data, and no other thread can read or write to that data, so they will never break the two rules.
 
-```
-TODO: Illustration
+```html demo
+{% include i/concepts/concurrency-safety-4.svg %}
 ```
 
 ---
@@ -60,8 +60,8 @@ TODO: Illustration
 
 We can extend the "share nothing" model to allow for transferring ownership of mutable data from one thread to another. As long as we can guarantee that the old thread fully stops reading or writing the data before the new ones starts using it, we satisfy the two rules. However, in many programming languages upholding this guarantee is a matter of personal discipline, without enforcement at the language level.
 
-```
-TODO: Illustration
+```html demo
+{% include i/concepts/concurrency-safety-5.svg %}
 ```
 
 ---
@@ -70,8 +70,8 @@ TODO: Illustration
 
 Functional programming languages usually aim to satisfy these rules by preventing writes at the language level, enforcing that a program is composed only of immutable data structures. Data can be shared among threads freely without breaking the two rules, because both of the safety rules are about preventing concurrent writes (which are not possible in the language).
 
-```
-TODO: Illustration
+```html demo
+{% include i/concepts/concurrency-safety-6.svg %}
 ```
 
 ---

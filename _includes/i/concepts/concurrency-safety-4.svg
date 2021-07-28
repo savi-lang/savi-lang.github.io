@@ -1,0 +1,131 @@
+<svg class="i-concepts-concurrency-safety" width="304" height="126" viewBox="0 0 304 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bounds -->
+<rect class="bounds bounded" x="16" y="6" width="62" height="114" rx="6"/>
+<rect class="bounds bounded" x="86" y="6" width="62" height="114" rx="6"/>
+<rect class="bounds bounded" x="156" y="6" width="62" height="114" rx="6"/>
+<rect class="bounds bounded" x="226" y="6" width="62" height="114" rx="6"/>
+
+<!-- Reads -->
+<path class="read flash-1" d="M36.4552 82.056L29.3989 90.5997L40.6011 93.4003L38.3955 82.5411L36.4552 82.056ZM46.0299 43.7575L36.2127 83.0262L38.153 83.5113L47.9701 44.2425L46.0299 43.7575Z"/>
+<path class="read flash-4" d="M51.8792 75.447L49.3608 86.2379L60.6392 83.7621L53.8327 75.0182L51.8792 75.447ZM45.0233 44.2144L52.0936 76.4237L54.0471 75.9949L46.9767 43.7856L45.0233 44.2144Z"/>
+<path class="read flash-2" d="M106.455 82.056L99.3989 90.5997L110.601 93.4003L108.395 82.5411L106.455 82.056ZM116.03 43.7575L106.213 83.0262L108.153 83.5113L117.97 44.2425L116.03 43.7575Z"/>
+<path class="read flash-8" d="M125.969 96.418L123.349 107.185L134.651 104.815L127.927 96.0076L125.969 96.418ZM115.021 44.2052L126.174 97.3968L128.132 96.9863L116.979 43.7948L115.021 44.2052Z"/>
+<path class="read flash-1" d="M182.883 67.9508L177.249 77.4925L188.751 78.5075L184.875 68.1266L182.883 67.9508ZM185.004 43.9121L182.795 68.9469L184.787 69.1227L186.996 44.0879L185.004 43.9121Z"/>
+<path class="read flash-3" d="M249.45 88.9602L243.287 98.169L254.713 99.831L251.429 89.2481L249.45 88.9602ZM256.01 43.8561L249.306 89.9498L251.285 90.2377L257.99 44.1439L256.01 43.8561Z"/>
+<path class="read flash-7" d="M258.969 82.1574L255.258 92.5982L266.742 91.4018L260.959 81.9502L258.969 82.1574ZM255.005 44.1036L259.073 83.152L261.062 82.9448L256.995 43.8964L255.005 44.1036Z"/>
+
+<!-- Data -->
+<circle class="data" cx="23" cy="113" r="3"/>
+<circle class="data" cx="31" cy="113" r="3"/>
+<circle class="data" cx="39" cy="113" r="3"/>
+<circle class="data" cx="47" cy="113" r="3"/>
+<circle class="data" cx="55" cy="113" r="3"/>
+<circle class="data" cx="63" cy="113" r="3"/>
+<circle class="data" cx="71" cy="113" r="3"/>
+<circle class="data" cx="27" cy="106" r="3"/>
+<circle class="data" cx="35" cy="106" r="3"/>
+<circle class="data" cx="43" cy="106" r="3"/>
+<circle class="data" cx="51" cy="106" r="3"/>
+<circle class="data" cx="59" cy="106" r="3"/>
+<circle class="data" cx="67" cy="106" r="3"/>
+<circle class="data" cx="31" cy="99" r="3"/>
+<circle class="data" cx="39" cy="99" r="3"/>
+<circle class="data" cx="47" cy="99" r="3"/>
+<circle class="data" cx="55" cy="99" r="3"/>
+<circle class="data" cx="63" cy="99" r="3"/>
+<circle class="data" cx="35" cy="92" r="3"/>
+<circle class="data" cx="43" cy="92" r="3"/>
+<circle class="data" cx="51" cy="92" r="3"/>
+<circle class="data" cx="59" cy="92" r="3"/>
+<circle class="data" cx="47" cy="85" r="3"/>
+<circle class="data" cx="55" cy="85" r="3"/>
+<circle class="data" cx="93" cy="113" r="3"/>
+<circle class="data" cx="101" cy="113" r="3"/>
+<circle class="data" cx="109" cy="113" r="3"/>
+<circle class="data" cx="117" cy="113" r="3"/>
+<circle class="data" cx="125" cy="113" r="3"/>
+<circle class="data" cx="133" cy="113" r="3"/>
+<circle class="data" cx="141" cy="113" r="3"/>
+<circle class="data" cx="97" cy="106" r="3"/>
+<circle class="data" cx="105" cy="106" r="3"/>
+<circle class="data" cx="113" cy="106" r="3"/>
+<circle class="data" cx="121" cy="106" r="3"/>
+<circle class="data" cx="129" cy="106" r="3"/>
+<circle class="data" cx="137" cy="106" r="3"/>
+<circle class="data" cx="101" cy="99" r="3"/>
+<circle class="data" cx="109" cy="99" r="3"/>
+<circle class="data" cx="117" cy="99" r="3"/>
+<circle class="data" cx="133" cy="99" r="3"/>
+<circle class="data" cx="105" cy="92" r="3"/>
+<circle class="data" cx="163" cy="113" r="3"/>
+<circle class="data" cx="171" cy="113" r="3"/>
+<circle class="data" cx="179" cy="113" r="3"/>
+<circle class="data" cx="187" cy="113" r="3"/>
+<circle class="data" cx="195" cy="113" r="3"/>
+<circle class="data" cx="203" cy="113" r="3"/>
+<circle class="data" cx="211" cy="113" r="3"/>
+<circle class="data" cx="167" cy="106" r="3"/>
+<circle class="data" cx="175" cy="106" r="3"/>
+<circle class="data" cx="183" cy="106" r="3"/>
+<circle class="data" cx="191" cy="106" r="3"/>
+<circle class="data" cx="199" cy="106" r="3"/>
+<circle class="data" cx="207" cy="106" r="3"/>
+<circle class="data" cx="171" cy="99" r="3"/>
+<circle class="data" cx="179" cy="99" r="3"/>
+<circle class="data" cx="187" cy="99" r="3"/>
+<circle class="data" cx="195" cy="99" r="3"/>
+<circle class="data" cx="203" cy="99" r="3"/>
+<circle class="data" cx="175" cy="92" r="3"/>
+<circle class="data" cx="183" cy="92" r="3"/>
+<circle class="data" cx="191" cy="92" r="3"/>
+<circle class="data" cx="199" cy="92" r="3"/>
+<circle class="data" cx="187" cy="85" r="3"/>
+<circle class="data" cx="179" cy="85" r="3"/>
+<circle class="data" cx="183" cy="78" r="3"/>
+<circle class="data" cx="233" cy="113" r="3"/>
+<circle class="data" cx="241" cy="113" r="3"/>
+<circle class="data" cx="249" cy="113" r="3"/>
+<circle class="data" cx="257" cy="113" r="3"/>
+<circle class="data" cx="265" cy="113" r="3"/>
+<circle class="data" cx="273" cy="113" r="3"/>
+<circle class="data" cx="281" cy="113" r="3"/>
+<circle class="data" cx="237" cy="106" r="3"/>
+<circle class="data" cx="245" cy="106" r="3"/>
+<circle class="data" cx="253" cy="106" r="3"/>
+<circle class="data" cx="261" cy="106" r="3"/>
+<circle class="data" cx="269" cy="106" r="3"/>
+<circle class="data" cx="277" cy="106" r="3"/>
+<circle class="data" cx="241" cy="99" r="3"/>
+<circle class="data" cx="249" cy="99" r="3"/>
+<circle class="data" cx="257" cy="99" r="3"/>
+<circle class="data" cx="265" cy="99" r="3"/>
+<circle class="data" cx="273" cy="99" r="3"/>
+<circle class="data" cx="245" cy="92" r="3"/>
+<circle class="data" cx="261" cy="92" r="3"/>
+<circle class="data" cx="269" cy="92" r="3"/>
+<circle class="data" cx="265" cy="85" r="3"/>
+
+<!-- Writes -->
+<path   class="write flash-7" d="M45.744 75.0289L41.2284 85.148L52.7716 84.852L47.7433 74.9777L45.744 75.0289ZM45.0003 46.0256L45.7696 76.0286L47.769 75.9773L46.9997 45.9744L45.0003 46.0256Z"/>
+<circle class="write flash-7" cx="47" cy="85" r="3"/>
+<path   class="write flash-6" d="M109.45 88.9602L103.287 98.169L114.713 99.831L111.429 89.2481L109.45 88.9602ZM116.01 43.8561L109.306 89.9498L111.285 90.2377L117.99 44.1439L116.01 43.8561Z"/>
+<circle class="write flash-6" cx="109" cy="99" r="3"/>
+<path   class="write flash-3" d="M129.043 89.7618L127.493 100.734L138.507 97.2663L130.951 89.1612L129.043 89.7618ZM115.046 45.3003L129.344 90.7156L131.251 90.1151L116.954 44.6997L115.046 45.3003Z"/>
+<circle class="write flash-3" cx="133" cy="99" r="3"/>
+<path   class="write flash-8" d="M188.99 82.1532L185.256 92.5861L196.744 91.4139L190.98 81.9501L188.99 82.1532ZM185.005 43.1015L189.092 83.148L191.081 82.945L186.995 42.8985L185.005 43.1015Z"/>
+<circle class="write flash-8" cx="191" cy="92" r="3"/>
+<path   class="write flash-4" d="M195.469 82.5908L193.42 93.4805L204.58 90.5195L197.402 82.0779L195.469 82.5908ZM185.033 43.2564L195.726 83.5574L197.659 83.0445L186.967 42.7436L185.033 43.2564Z"/>
+<circle class="write flash-4" cx="199" cy="92" r="3"/>
+<path   class="write flash-2" d="M246.505 82.0634L239.406 90.5717L250.594 93.4283L248.443 82.5582L246.505 82.0634ZM256.031 44.7526L246.258 83.0324L248.195 83.5271L257.969 45.2474L256.031 44.7526Z"/>
+<circle class="write flash-2" cx="245" cy="92" r="3"/>
+<path   class="write flash-6" d="M261.879 75.447L259.361 86.2379L270.639 83.7621L263.833 75.0181L261.879 75.447ZM255.023 44.2144L262.094 76.4237L264.047 75.9949L256.977 43.7856L255.023 44.2144Z"/>
+<circle class="write flash-6" cx="265" cy="85" r="3"/>
+
+<!-- Threads -->
+<g transform="translate(25 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(95 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(165 8)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(235 8)">{% include i-shared/gears.svg %}</g>
+
+</svg>

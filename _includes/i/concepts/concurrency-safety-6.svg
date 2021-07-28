@@ -1,0 +1,122 @@
+<svg class="i-concepts-concurrency-safety" width="304" height="160" viewBox="0 0 304 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Creates -->
+<g class="flash-4">
+<circle class="create" cx="132" cy="18" r="13" fill="#F6F4F2"/>
+<path class="create" d="M112.531 24.3666L123.383 26.6054L120.617 15.3946L112.052 22.4248L112.531 24.3666ZM45.2396 40.9709L113.502 24.127L113.023 22.1852L44.7604 39.0291L45.2396 40.9709Z" fill="#F6F4F2"/>
+</g>
+<g class="flash-9">
+<circle class="create" cx="172" cy="18" r="13" fill="#F6F4F2"/>
+<path class="create" d="M191.944 22.4552L183.4 15.3989L180.6 26.6011L191.459 24.3955L191.944 22.4552ZM258.243 39.0299L190.974 22.2127L190.489 24.153L257.757 40.9701L258.243 39.0299Z" fill="#F6F4F2"/>
+</g>
+
+<!-- Reads -->
+<path class="read flash-2" d="M124.946 46.2829L134.536 51.8344L135.452 40.3237L125.105 44.2892L124.946 46.2829ZM45.9207 39.9969L125.943 46.3622L126.101 44.3685L46.0793 38.0031L45.9207 39.9969Z"/>
+<path class="read flash-7" d="M164.961 46.4567L174.687 51.765L175.313 40.235L165.069 44.4596L164.961 46.4567ZM45.9458 39.9985L165.959 46.5109L166.067 44.5138L46.0542 38.0015L45.9458 39.9985Z"/>
+<path class="read flash-0" d="M114.76 78.0479L121.213 87.0561L126.787 76.9439L115.725 76.2965L114.76 78.0479ZM45.5172 39.8757L115.636 78.5307L116.601 76.7792L46.4828 38.1243L45.5172 39.8757Z"/>
+<path class="read flash-5" d="M158.368 86.1331L165.811 94.3423L170.189 83.6577L159.126 84.2825L158.368 86.1331ZM45.6208 39.9253L159.293 86.5123L160.051 84.6617L46.3792 38.0747L45.6208 39.9253Z"/>
+<path class="read flash-8" d="M107.314 103.526L110.86 114.024L119.14 105.976L108.748 102.132L107.314 103.526ZM45.2829 39.6969L108.01 104.243L109.445 102.849L46.7171 38.3031L45.2829 39.6969Z"/>
+<path class="read flash-9 delay-025" d="M152.84 101.864L159.112 110.999L164.888 101.001L153.841 100.133L152.84 101.864ZM45.4998 39.8659L153.706 102.365L154.707 100.633L46.5002 38.1341L45.4998 39.8659Z"/>
+
+<path class="read flash-2 delay-025" d="M126.087 58.6424L137.144 59.3606L132.856 48.6394L125.344 56.7854L126.087 58.6424ZM45.3714 90.9285L127.015 58.271L126.272 56.414L44.6286 89.0715L45.3714 90.9285Z"/>
+<path class="read flash-7 delay-025" d="M165.848 50.1532L176.851 51.4688L173.149 40.5312L165.207 48.2587L165.848 50.1532ZM45.3206 90.9472L166.796 49.8326L166.154 47.9381L44.6794 89.0528L45.3206 90.9472Z"/>
+<path class="read flash-5" d="M158.195 77.2032L168.699 80.731L167.301 69.269L157.952 75.2179L158.195 77.2032ZM45.1211 90.9926L159.187 77.0821L158.945 75.0968L44.8789 89.0074L45.1211 90.9926Z"/>
+<path class="read flash-0" d="M114.152 84.0024L124.582 87.7441L123.418 76.2559L113.95 82.0126L114.152 84.0024ZM45.1008 90.9949L115.147 83.9017L114.945 81.9118L44.8992 89.0051L45.1008 90.9949Z"/>
+<path class="read flash-8" d="M105.344 115.215L112.856 123.361L117.144 112.639L106.087 113.358L105.344 115.215ZM44.6286 90.9285L106.272 115.586L107.015 113.729L45.3714 89.0715L44.6286 90.9285Z"/>
+<path class="read flash-3" d="M145.062 116.502L153.576 123.595L156.424 112.405L145.556 114.564L145.062 116.502ZM44.7533 90.9691L146.031 116.749L146.525 114.811L45.2467 89.0309L44.7533 90.9691Z"/>
+
+<path class="read flash-2" d="M158.911 44.2972L148.626 40.1744L149.366 51.6977L159.039 46.2931L158.911 44.2972ZM256.936 38.0021L157.913 44.3613L158.041 46.3572L257.064 39.9979L256.936 38.0021Z"/>
+<path class="read flash-7" d="M198.845 43.9813L188.409 40.2568L189.591 51.7432L199.05 45.9707L198.845 43.9813ZM256.898 38.0053L197.85 44.0837L198.055 46.0731L257.102 39.9947L256.898 38.0053Z"/>
+<path class="read flash-5 delay-025" d="M188.243 76.2512L177.185 76.9592L182.815 87.0408L189.218 77.9974L188.243 76.2512ZM256.512 38.1269L187.37 76.7388L188.345 78.485L257.488 39.8731L256.512 38.1269Z"/>
+<path class="read flash-7 delay-025" d="M130.513 100.659L119.433 100.828L124.567 111.172L131.402 102.45L130.513 100.659ZM256.555 38.1042L129.617 101.103L130.506 102.895L257.445 39.8958L256.555 38.1042Z"/>
+<path class="read flash-5" d="M175.773 110.576L165.143 113.704L172.857 122.296L177.109 112.064L175.773 110.576ZM256.332 38.2559L175.029 111.244L176.365 112.732L257.668 39.7441L256.332 38.2559Z"/>
+<path class="read flash-9 delay-05" d="M145.3 71.1898L134.354 69.4662L137.646 80.5338L145.87 73.1068L145.3 71.1898ZM256.715 38.0415L144.341 71.475L144.911 73.392L257.285 39.9585L256.715 38.0415Z"/>
+
+<path class="read flash-1" d="M158.647 48.8159L151.161 40.6462L146.839 51.3538L157.899 50.6705L158.647 48.8159ZM258.374 89.0727L157.72 48.4416L156.971 50.2962L257.626 90.9273L258.374 89.0727Z"/>
+<path class="read flash-8 delay-025" d="M198.328 57.7391L191.671 48.8813L186.329 59.1187L197.403 59.5122L198.328 57.7391ZM258.463 89.1134L197.442 57.2765L196.517 59.0497L257.537 90.8866L258.463 89.1134Z"/>
+<path class="read flash-9 delay-05" d="M150.045 81.6787L140.391 76.2397L139.609 87.7603L149.909 83.6741L150.045 81.6787ZM258.068 89.0023L149.047 81.6111L148.912 83.6065L257.932 90.9977L258.068 89.0023Z"/>
+<path class="read flash-4 delay-05" d="M190.05 82.0255L180.589 76.2566L179.411 87.7434L189.846 84.0151L190.05 82.0255ZM258.102 89.0052L189.055 81.9235L188.851 83.913L257.898 90.9948L258.102 89.0052Z"/>
+<path class="read flash-9 delay-025" d="M138.56 114.902L127.775 112.358L130.225 123.642L138.985 116.856L138.56 114.902ZM257.788 89.0228L137.583 115.114L138.007 117.068L258.212 90.9772L257.788 89.0228Z"/>
+<path class="read flash-3 delay-075" d="M178.239 114.045L167.267 112.493L170.733 123.507L178.839 115.953L178.239 114.045ZM257.7 89.0461L177.285 114.345L177.885 116.253L258.3 90.9539L257.7 89.0461Z"/>
+
+<!-- Data -->
+<g class="val group downward-drift-a delay-0" transform-origin="132 18">
+<circle class="data val" cx="124" cy="18" r="3"/>
+<circle class="data val" cx="132" cy="18" r="3"/>
+<circle class="data val" cx="140" cy="18" r="3"/>
+<circle class="data val" cx="128" cy="11" r="3"/>
+<circle class="data val" cx="128" cy="25" r="3"/>
+<circle class="data val" cx="136" cy="11" r="3"/>
+<circle class="data val" cx="136" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-b delay-2" transform-origin="172 18">
+<circle class="data val" cx="164" cy="18" r="3"/>
+<circle class="data val" cx="172" cy="18" r="3"/>
+<circle class="data val" cx="180" cy="18" r="3"/>
+<circle class="data val" cx="168" cy="11" r="3"/>
+<circle class="data val" cx="168" cy="25" r="3"/>
+<circle class="data val" cx="176" cy="11" r="3"/>
+<circle class="data val" cx="176" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-a delay-4" transform-origin="132 18">
+<circle class="data val" cx="124" cy="18" r="3"/>
+<circle class="data val" cx="132" cy="18" r="3"/>
+<circle class="data val" cx="140" cy="18" r="3"/>
+<circle class="data val" cx="128" cy="11" r="3"/>
+<circle class="data val" cx="128" cy="25" r="3"/>
+<circle class="data val" cx="136" cy="11" r="3"/>
+<circle class="data val" cx="136" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-b delay-6" transform-origin="172 18">
+<circle class="data val" cx="164" cy="18" r="3"/>
+<circle class="data val" cx="172" cy="18" r="3"/>
+<circle class="data val" cx="180" cy="18" r="3"/>
+<circle class="data val" cx="168" cy="11" r="3"/>
+<circle class="data val" cx="168" cy="25" r="3"/>
+<circle class="data val" cx="176" cy="11" r="3"/>
+<circle class="data val" cx="176" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-a delay-8" transform-origin="132 18">
+<circle class="data val" cx="124" cy="18" r="3"/>
+<circle class="data val" cx="132" cy="18" r="3"/>
+<circle class="data val" cx="140" cy="18" r="3"/>
+<circle class="data val" cx="128" cy="11" r="3"/>
+<circle class="data val" cx="128" cy="25" r="3"/>
+<circle class="data val" cx="136" cy="11" r="3"/>
+<circle class="data val" cx="136" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-b delay-10" transform-origin="172 18">
+<circle class="data val" cx="164" cy="18" r="3"/>
+<circle class="data val" cx="172" cy="18" r="3"/>
+<circle class="data val" cx="180" cy="18" r="3"/>
+<circle class="data val" cx="168" cy="11" r="3"/>
+<circle class="data val" cx="168" cy="25" r="3"/>
+<circle class="data val" cx="176" cy="11" r="3"/>
+<circle class="data val" cx="176" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-a delay-12" transform-origin="132 18">
+<circle class="data val" cx="124" cy="18" r="3"/>
+<circle class="data val" cx="132" cy="18" r="3"/>
+<circle class="data val" cx="140" cy="18" r="3"/>
+<circle class="data val" cx="128" cy="11" r="3"/>
+<circle class="data val" cx="128" cy="25" r="3"/>
+<circle class="data val" cx="136" cy="11" r="3"/>
+<circle class="data val" cx="136" cy="25" r="3"/>
+</g>
+<g class="val group downward-drift-b delay-14" transform-origin="172 18">
+<circle class="data val" cx="164" cy="18" r="3"/>
+<circle class="data val" cx="172" cy="18" r="3"/>
+<circle class="data val" cx="180" cy="18" r="3"/>
+<circle class="data val" cx="168" cy="11" r="3"/>
+<circle class="data val" cx="168" cy="25" r="3"/>
+<circle class="data val" cx="176" cy="11" r="3"/>
+<circle class="data val" cx="176" cy="25" r="3"/>
+</g>
+
+<!-- Threads -->
+<g transform="translate(25 2)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(25 52)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(235 2)">{% include i-shared/gears.svg %}</g>
+<g transform="translate(235 52)">{% include i-shared/gears.svg %}</g>
+
+</svg>
