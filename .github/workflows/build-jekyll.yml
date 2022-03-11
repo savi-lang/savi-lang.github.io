@@ -17,7 +17,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       # Build Jekyll site.
-      - uses: jeffreytse/jekyll-deploy-action@v0.2.1
+      - uses: jeffreytse/jekyll-deploy-action@v0.3.1
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }}
