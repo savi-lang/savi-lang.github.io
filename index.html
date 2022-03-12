@@ -10,19 +10,19 @@ layout: default
   .footer {
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 3.5em;
     width: 100%;
     background-color: #0D0C0E;
   }
   .footer p {
-    margin: 10px 0;
+    margin: 0.35em 0;
     font-size: 2em;
     font-variant-caps: small-caps;
   }
 
   div.logo-container {
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 6em;
     width: 454px;
     height: 244px;
     position: relative;
@@ -91,9 +91,10 @@ layout: default
   }
 
   div.scanline-container {
+    position: absolute;
+    top: 6em;
     width: 100%;
     height: 244px;
-    transform: translateY(-100px);
   }
   div.scanline {
     position: absolute;
@@ -102,32 +103,39 @@ layout: default
   }
 
   div.gray1 {
-    padding: 60px 0;
-    height: 600px;
+    position: fixed;
+    top: 38em;
+    height: 38em;
+    width: 100%;
     background-color: #151216;
     border-top: 1px solid #CB3B6F;
     border-bottom: 1px solid #6c7dde;
+    padding-top: 2em;
   }
   div.gray2 {
-    padding-top: 40px;
-    padding-bottom: 80px;
-    height: 350px;
-    margin-top: -300px;
+    position: fixed;
+    top: 75em;
+    height: 24.5em;
+    width: 100%;
     background-color: #1B181C;
     border-top: 1px solid #BA2158;
     border-bottom: 1px solid #553c9d;
+    padding-top: 1em;
   }
   div.gray3 {
-    padding: 60px 0;
-    margin-top: -50px;
+    position: fixed;
+    top: 123em;
+    height: 8em;
+    width: 100%;
     background-color: #221E23;
     border-top: 1px solid #843779;
     border-bottom: 1px solid #513B80;
+    padding-top: 1.5em;
   }
 </style>
 
 <div class="container">
-  <div class="logo-container rellax" data-rellax-speed="-6">
+  <div class="logo-container rellax" data-rellax-speed="-9">
     <div class="logo tail v"></div>
     <div class="logo tail a"></div>
     <div class="logo tail s"></div>
@@ -143,7 +151,7 @@ layout: default
     <div class="logo dot s"></div>
   </div>
 
-  <div class="rellax" data-rellax-speed="7" data-rellax-zindex="2">
+  <div class="rellax" data-rellax-speed="7" >
     <div class="scanline-container">
       <div class="scanline" style="height: 0.6px; transform: translateY(118px);"></div>
       <div class="scanline" style="height: 1.0px; transform: translateY(130px);"></div>
@@ -182,7 +190,7 @@ layout: default
     </div>
   </div>
 
-  <div class="gray1 rellax" data-rellax-speed="0" data-rellax-zindex="11">
+  <div class="gray1 rellax" data-rellax-speed="14" >
     <p>
       <strong>Savi</strong> is a
       <strong>fast</strong> language for programmers
@@ -190,7 +198,7 @@ layout: default
     </p>
   </div>
 
-  <div class="gray2 rellax" data-rellax-speed="10" data-rellax-zindex="12">
+  <div class="gray2 rellax" data-rellax-speed="21.5" >
     <p>
       <strong>Savi</strong> will
       <strong>change the way you think</strong> about programming
@@ -200,7 +208,7 @@ layout: default
     </p>
   </div>
 
-  <div class="gray3 rellax" data-rellax-speed="16.4" data-rellax-zindex="13">
+  <div class="gray3 rellax" data-rellax-speed="28" >
     <p>
       <strong>Savi</strong> is here to help you write blazing-fast,
       <br><strong>concurrent</strong> software that is
@@ -208,7 +216,7 @@ layout: default
     </p>
   </div>
 
-  <p style="margin-bottom: 100px;">
+  <p style="margin-top: 75em; margin-bottom: 5em;">
     Click <strong>below</strong> to learn more.
   </p>
 
