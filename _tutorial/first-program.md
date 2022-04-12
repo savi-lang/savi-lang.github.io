@@ -359,5 +359,3 @@ DEBUG 2022-04-12 16:08:39.455 | Echoed: b"Hello, World!\r\n"
 That's it for this tutorial!
 
 If you enjoyed this, please consider committing the source code as a public repository on GitHub. It will help us get GitHub to recognize our language and enable syntax highlighting (they require a threshold number of repositories before they will allow our language to be detected).
-
-We'll see it
