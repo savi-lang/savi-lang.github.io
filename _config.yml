@@ -24,3 +24,8 @@ collections:
       - concurrency-safety.md
       - mutability.md
       - aliasing.md
+  tutorial:
+    output: true
+    permalink: /:collection/:name
+    order:
+      - first-program.md
