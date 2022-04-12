@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "gears.css",
+	"sources": [
+		"gears.scss",
+		"_sass/keyframes.scss"
+	],
+	"sourcesContent": [
+		"@import \"keyframes\";\n\n$keyframes-base: 'i-shared-gears';\n.i-shared-gears {\n\n.teeth, .wheel { fill: #887D91; }\n.hole          { fill: #151216; }\n\n.gear-1>.teeth {\n  transform-origin: 17px 16px;\n  animation: 3s linear infinite;\n  @include keyframes {\n    0%    { opacity: 1; transform: rotate(360deg)}\n    100%  { opacity: 1; transform: rotate(0deg) }\n  }\n}\n\n.gear-2>.teeth {\n  transform-origin: 32px 31px;\n  animation: 2s linear infinite;\n  @include keyframes {\n    0%    { opacity: 1; transform: rotate(-360deg)}\n    100%  { opacity: 1; transform: rotate(0deg) }\n  }\n}\n\n.gear-3>.teeth {\n  transform-origin: 21.5px 37.5px;\n  animation: 1s linear infinite;\n  @include keyframes {\n    0%    { opacity: 1; transform: rotate(360deg)}\n    100%  { opacity: 1; transform: rotate(0deg) }\n  }\n}\n\n}\n",
+		"$keyframes-number: null;\n$keyframes-base: '';\n\n// Generate a unique keyframes name and set it as the animation-name value.\n@mixin keyframes {\n  $keyframes-number: 0 !default !global;\n  $keyframes-number: $keyframes-number + 1 !global;\n  $name: unquote(\"savi-#{$keyframes-base}-#{$keyframes-number}\");\n  animation-name: $name;\n  @at-root {\n    @keyframes #{$name} {\n      @content;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAGA,AAEA,eAFe,CAEf,MAAM,EAFN,eAAe,CAEP,MAAM,CAAC,EAAE,IAAI,EAAE,OAAO,GAAI;;AAFlC,AAGA,eAHe,CAGf,KAAK,CAAU,EAAE,IAAI,EAAE,OAAO,GAAI;;AAHlC,AAKA,eALe,CAKf,OAAO,GAAC,MAAM,CAAC,EACb,gBAAgB,EAAE,SAAS,EAC3B,SAAS,EAAE,kBAAkB,ECF7B,cAAc,EADP,qBAAuF,GDQ/F;;ACLG,UAAU,CAAV,qBAAU,GDEV,EAAE,GAAM,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,cAAc;EAC7C,IAAI,GAAI,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,YAAY;;AAV/C,AAcA,eAde,CAcf,OAAO,GAAC,MAAM,CAAC,EACb,gBAAgB,EAAE,SAAS,EAC3B,SAAS,EAAE,kBAAkB,ECX7B,cAAc,EADP,qBAAuF,GDiB/F;;ACdG,UAAU,CAAV,qBAAU,GDWV,EAAE,GAAM,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,eAAe;EAC9C,IAAI,GAAI,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,YAAY;;AAnB/C,AAuBA,eAvBe,CAuBf,OAAO,GAAC,MAAM,CAAC,EACb,gBAAgB,EAAE,aAAa,EAC/B,SAAS,EAAE,kBAAkB,ECpB7B,cAAc,EADP,qBAAuF,GD0B/F;;ACvBG,UAAU,CAAV,qBAAU,GDoBV,EAAE,GAAM,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,cAAc;EAC7C,IAAI,GAAI,OAAO,EAAE,CAAC;IAAE,SAAS,EAAE,YAAY"
+}

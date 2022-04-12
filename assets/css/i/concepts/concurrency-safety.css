@@ -1,0 +1,185 @@
+.i-concepts-concurrency-safety path.read { fill: #5627BA; }
+
+.i-concepts-concurrency-safety path.write { fill: #FF734E; }
+
+.i-concepts-concurrency-safety path.create { fill: #F6F4F2; }
+
+.i-concepts-concurrency-safety circle.data { fill: #8A6CDE; }
+
+.i-concepts-concurrency-safety circle.write { fill: #F7EF75; }
+
+.i-concepts-concurrency-safety circle.create { fill: #F6F4F2; }
+
+.i-concepts-concurrency-safety circle.data.val { fill: #6C9ADE; }
+
+.i-concepts-concurrency-safety .bounded { fill: #0D0C0E; }
+
+.i-concepts-concurrency-safety .bounds { stroke: #887D91; stroke-width: 2px; }
+
+.i-concepts-concurrency-safety .iso.bounds { stroke: #71B170; stroke-width: 2px; }
+
+.i-concepts-concurrency-safety .conflict { fill: #FF2323; mix-blend-mode: screen; }
+
+.i-concepts-concurrency-safety .flash-0 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-1; }
+
+@keyframes savi-i-concepts-concurrency-safety-1 { 0% { opacity: 1; }
+  10% { opacity: 0; }
+  90% { opacity: 0; }
+  100% { opacity: 1; } }
+
+.i-concepts-concurrency-safety .flash-1 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-2; }
+
+@keyframes savi-i-concepts-concurrency-safety-2 { 0% { opacity: 0; }
+  10% { opacity: 1; }
+  20% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-2 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-3; }
+
+@keyframes savi-i-concepts-concurrency-safety-3 { 0% { opacity: 0; }
+  10% { opacity: 0; }
+  20% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-3 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-4; }
+
+@keyframes savi-i-concepts-concurrency-safety-4 { 0% { opacity: 0; }
+  20% { opacity: 0; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-4 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-5; }
+
+@keyframes savi-i-concepts-concurrency-safety-5 { 0% { opacity: 0; }
+  30% { opacity: 0; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-5 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-6; }
+
+@keyframes savi-i-concepts-concurrency-safety-6 { 0% { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-6 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-7; }
+
+@keyframes savi-i-concepts-concurrency-safety-7 { 0% { opacity: 0; }
+  50% { opacity: 0; }
+  60% { opacity: 1; }
+  70% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-7 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-8; }
+
+@keyframes savi-i-concepts-concurrency-safety-8 { 0% { opacity: 0; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-8 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-9; }
+
+@keyframes savi-i-concepts-concurrency-safety-9 { 0% { opacity: 0; }
+  70% { opacity: 0; }
+  80% { opacity: 1; }
+  90% { opacity: 0; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-9 { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-10; }
+
+@keyframes savi-i-concepts-concurrency-safety-10 { 0% { opacity: 0; }
+  80% { opacity: 0; }
+  90% { opacity: 1; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .flash-9-dimmish { animation: 4s ease-in-out infinite; mix-blend-mode: screen; animation-name: savi-i-concepts-concurrency-safety-11; }
+
+@keyframes savi-i-concepts-concurrency-safety-11 { 0% { opacity: 0; }
+  80% { opacity: 0; }
+  90% { opacity: 0.75; }
+  100% { opacity: 0; } }
+
+.i-concepts-concurrency-safety .reappearing-late { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-12; }
+
+@keyframes savi-i-concepts-concurrency-safety-12 { 0% { opacity: 1;
+    transform: scale(1) rotate(0deg); }
+  50% { opacity: 0;
+    transform: scale(0.8) rotate(0deg); }
+  80% { opacity: 0;
+    transform: scale(0.8) rotate(0deg); }
+  85% { opacity: 1;
+    transform: scale(1.2) rotate(120deg); }
+  95% { opacity: 1;
+    transform: scale(1) rotate(120deg); }
+  100% { opacity: 1;
+    transform: scale(1) rotate(120deg); } }
+
+.i-concepts-concurrency-safety .disappearing-late { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-13; }
+
+@keyframes savi-i-concepts-concurrency-safety-13 { 0% { opacity: 1;
+    transform: scale(1) rotate(0deg); }
+  50% { opacity: 1;
+    transform: scale(1) rotate(0deg); }
+  75% { opacity: 0; }
+  100% { opacity: 0;
+    transform: scale(0.2) rotate(420deg); } }
+
+.i-concepts-concurrency-safety .rightward-70-late { animation: 4s ease-in-out infinite; animation-name: savi-i-concepts-concurrency-safety-14; }
+
+@keyframes savi-i-concepts-concurrency-safety-14 { 0% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(0) rotate(0deg); }
+  100% { transform: translateX(70px) rotate(420deg); } }
+
+.i-concepts-concurrency-safety .downward-drift-a { offset-path: path("M132 18C132 18 142 30 142 50C142 70 122 94 122 114C122 134 132 146 132 146"); }
+
+.i-concepts-concurrency-safety .downward-drift-b { offset-path: path("M172 18C172 18 182 30 182 50C182 70 162 94 162 114C162 134 172 146 172 146"); }
+
+.i-concepts-concurrency-safety .downward-drift-a, .i-concepts-concurrency-safety .downward-drift-b { offset-distance: 0%; offset-rotate: 0deg; opacity: 0; animation: 16s linear infinite; animation-name: savi-i-concepts-concurrency-safety-15; }
+
+@keyframes savi-i-concepts-concurrency-safety-15 { 0% { opacity: 0;
+    transform: rotate(0);
+    offset-distance: 0%; }
+  8% { opacity: 0;
+    transform: rotate(0);
+    offset-distance: 0%; }
+  10% { opacity: 1;
+    transform: rotate(0);
+    offset-distance: 0%; }
+  50% { opacity: 1;
+    transform: rotate(180deg); }
+  80% { opacity: 1; }
+  90% { opacity: 0;
+    transform: rotate(360deg);
+    offset-distance: 100%; }
+  100% { opacity: 0;
+    transform: rotate(360deg);
+    offset-distance: 100%; } }
+
+.i-concepts-concurrency-safety .delay-025 { animation-delay: -15.75s; }
+
+.i-concepts-concurrency-safety .delay-05 { animation-delay: -15.5s; }
+
+.i-concepts-concurrency-safety .delay-075 { animation-delay: -15.25s; }
+
+.i-concepts-concurrency-safety .delay-0 { animation-delay: -16s; }
+
+.i-concepts-concurrency-safety .delay-2 { animation-delay: -14s; }
+
+.i-concepts-concurrency-safety .delay-4 { animation-delay: -12s; }
+
+.i-concepts-concurrency-safety .delay-6 { animation-delay: -10s; }
+
+.i-concepts-concurrency-safety .delay-8 { animation-delay: -8s; }
+
+.i-concepts-concurrency-safety .delay-10 { animation-delay: -6s; }
+
+.i-concepts-concurrency-safety .delay-12 { animation-delay: -4s; }
+
+.i-concepts-concurrency-safety .delay-14 { animation-delay: -2s; }
+
+/*# sourceMappingURL=concurrency-safety.css.map */

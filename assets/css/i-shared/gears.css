@@ -1,0 +1,26 @@
+.i-shared-gears .teeth, .i-shared-gears .wheel { fill: #887D91; }
+
+.i-shared-gears .hole { fill: #151216; }
+
+.i-shared-gears .gear-1 > .teeth { transform-origin: 17px 16px; animation: 3s linear infinite; animation-name: savi-i-shared-gears-1; }
+
+@keyframes savi-i-shared-gears-1 { 0% { opacity: 1;
+    transform: rotate(360deg); }
+  100% { opacity: 1;
+    transform: rotate(0deg); } }
+
+.i-shared-gears .gear-2 > .teeth { transform-origin: 32px 31px; animation: 2s linear infinite; animation-name: savi-i-shared-gears-2; }
+
+@keyframes savi-i-shared-gears-2 { 0% { opacity: 1;
+    transform: rotate(-360deg); }
+  100% { opacity: 1;
+    transform: rotate(0deg); } }
+
+.i-shared-gears .gear-3 > .teeth { transform-origin: 21.5px 37.5px; animation: 1s linear infinite; animation-name: savi-i-shared-gears-3; }
+
+@keyframes savi-i-shared-gears-3 { 0% { opacity: 1;
+    transform: rotate(360deg); }
+  100% { opacity: 1;
+    transform: rotate(0deg); } }
+
+/*# sourceMappingURL=gears.css.map */

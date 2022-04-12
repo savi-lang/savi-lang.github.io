@@ -1,0 +1,14 @@
+.icon-button {
+  opacity: 0.5;
+  margin: 5px;
+  align-self: center;
+}
+
+.icon-button:hover {
+  opacity: 0.9;
+}
+
+.icon-filter-light {
+  /* Created using https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(100%) sepia(1%) saturate(3358%) hue-rotate(308deg) brightness(92%) contrast(110%);
+}

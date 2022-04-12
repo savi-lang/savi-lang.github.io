@@ -1,0 +1,273 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Savi • A fast language for programmers who are passionate about their craft.</title>
+
+    <meta property="og:title" content="Savi">
+    <meta property="og:url" content="https://savi-lang.github.io">
+    <meta property="og:description" content="A fast language for programmers who are passionate about their craft.">
+    <meta property="og:image" content="https://savi-lang.github.io/assets/logo.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@savi-lang">
+    <meta name="twitter:creator" content="@savi-lang">
+    <meta name="twitter:title" content="Savi">
+    <meta name="twitter:description" content="A fast language for programmers who are passionate about their craft.">
+    <meta name="twitter:image" content="https://savi-lang.github.io/assets/logo.png">
+
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/placement.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/color.css">
+    <link rel="stylesheet" href="/assets/css/icon.css">
+    <link rel="stylesheet" href="/assets/css/demo.css">
+  </head>
+  <body>
+    <div class="root">
+      <style type="text/css" media="screen">
+  html {
+    background-color: #0D0C0E;
+    text-align: center;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    height: 3.5em;
+    width: 100%;
+    background-color: #0D0C0E;
+  }
+  .footer p {
+    margin: 0.35em 0;
+    font-size: 2em;
+    font-variant-caps: small-caps;
+  }
+
+  div.logo-container {
+    margin: 0px auto;
+    margin-top: 6em;
+    width: 454px;
+    height: 244px;
+    position: relative;
+  }
+  div.logo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  div.logo.letter.s1 {
+    background: conic-gradient(from 180deg at 19.6% 34%, #BA2158, #9758B9 40%, #935EC599 61%, #8A6CDE00 77%);
+    clip-path: path('M132.09 57.622L132.08 57.628C132.155 57.7506 132.229 57.8746 132.301 58C136.581 65.4135 134.041 74.8932 126.628 79.1734C119.284 83.4132 109.914 80.9609 105.577 73.7089C105.501 73.5726 105.423 73.4374 105.343 73.3032C105.309 73.243 105.276 73.1826 105.243 73.1221L105.236 73.1261C101.901 67.6538 95.8772 64 89 64C78.5066 64 70 72.5066 70 83C70 93.4934 78.5066 102 89 102V133C61.3858 133 39 110.614 39 83C39 55.3858 61.3858 33 89 33C107.351 33 123.392 42.8857 132.09 57.622Z');
+  }
+  div.logo.letter.s2 {
+    background: conic-gradient(at 19.6% 62.3%, #BA2158, #843779 69%, #80397B4D 86%, #6C418733);
+    clip-path: path('M139 152C139 179.614 116.614 202 89 202L89 171C99.4934 171 108 162.493 108 152C108 141.507 99.4934 133 89 133L89 102C116.614 102 139 124.386 139 152Z');
+  }
+  div.logo.letter.s3 {
+    background: conic-gradient(at 19.6% 62.3%, #BA2158, #843779 69%, #80397B4D 86%, #6C418733);
+    clip-path: path('M39 152C39 124.386 61.3858 102 89 102V133C78.5066 133 70 141.507 70 152C70 162.493 78.5066 171 89 171V202C61.3858 202 39 179.614 39 152Z');
+  }
+  div.logo.letter.a1 {
+    background: conic-gradient(from 270deg at 44.7% 62.3%, #BA2158, #8A6CDE 70%);
+    clip-path: path('M253 152C253 124.386 230.614 102 203 102C175.386 102 153 124.386 153 152L184 152C184 141.507 192.507 133 203 133C213.493 133 222 141.507 222 152V202H253V152Z');
+  }
+  div.logo.letter.a2 {
+    background: conic-gradient(from 270deg at 44.7% 62.3%, #6C4187CC 57%, #BA2158);
+    clip-path: path('M203 202C175.386 202 153 179.614 153 152L184 152C184 162.493 192.507 171 203 171C213.493 171 222 162.493 222 152L253 152C253 179.614 230.614 202 203 202Z');
+  }
+  div.logo.letter.v1 {
+    background: linear-gradient(to bottom, #9954B3 41.8%, #BA2158 82.8%);
+    clip-path: path('M267 102L298 102L298 202L267 202Z');
+  }
+  div.logo.letter.v2 {
+    background: linear-gradient(to bottom, #8A6CDE 41.8%, #843779CC 82.8%);
+    clip-path: path('M368 102L298 202V151L337 102L368 102Z');
+  }
+  div.logo.letter.i1 {
+    background: radial-gradient(137px at 87.6% 26.9%, #8437791A, #945CC299 25%, #9856B6CC 32.8%, #BA2158);
+    clip-path: path('M412.998 66C412.999 65.9168 413 65.8335 413 65.75C413 57.1896 406.06 50.25 397.5 50.25C388.94 50.25 382 57.1896 382 65.75C382 65.8335 382.001 65.9168 382.002 66H382L382 202H413L413 66H412.998Z');
+  }
+  div.logo.dot.s {
+    background-color: #C18DE0;
+    clip-path: circle(15.5px at 26.2% 26.9%);
+    mix-blend-mode: screen;
+    opacity: 75%;
+  }
+  div.logo.dot.i {
+    background-color: #C18DE0;
+    clip-path: circle(15.5px at 87.6% 26.9%);
+  }
+  div.logo.tail.s {
+    opacity: 15%;
+    background: linear-gradient(to right, #AD75CF 19.6%, #BA2158 44.7%);
+    clip-path: path('M89 102L203 102L203 133L89 133L89 102Z');
+  }
+  div.logo.tail.a {
+    opacity: 15%;
+    background: linear-gradient(to bottom, #AD75CF 41.8%, #BA2158 82.8%);
+    clip-path: path('M298 102L238.92 186.631L217 164.711L267 102L298 102Z');
+  }
+  div.logo.tail.v {
+    opacity: 15%;
+    background: linear-gradient(to bottom, #AD75CF 41.8%, #BA2158 82.8%);
+    clip-path: path('M368 102L382 131L382 202L340.102 115.517L368 102Z');
+  }
+
+  div.scanline-container {
+    position: absolute;
+    top: 6em;
+    width: 100%;
+    height: 244px;
+  }
+  div.scanline {
+    position: absolute;
+    background-color: #0D0C0E;
+    width: 100%;
+  }
+
+  div.gray1 {
+    position: fixed;
+    top: 38em;
+    height: 38em;
+    width: 100%;
+    background-color: #151216;
+    border-top: 1px solid #CB3B6F;
+    border-bottom: 1px solid #6c7dde;
+    padding-top: 2em;
+  }
+  div.gray2 {
+    position: fixed;
+    top: 75em;
+    height: 24.5em;
+    width: 100%;
+    background-color: #1B181C;
+    border-top: 1px solid #BA2158;
+    border-bottom: 1px solid #553c9d;
+    padding-top: 1em;
+  }
+  div.gray3 {
+    position: fixed;
+    top: 123em;
+    height: 8em;
+    width: 100%;
+    background-color: #221E23;
+    border-top: 1px solid #843779;
+    border-bottom: 1px solid #513B80;
+    padding-top: 1.5em;
+  }
+</style>
+
+<div class="container">
+  <div class="logo-container rellax" data-rellax-speed="-9">
+    <div class="logo tail v"></div>
+    <div class="logo tail a"></div>
+    <div class="logo tail s"></div>
+    <div class="logo letter i1"></div>
+    <div class="logo letter v2"></div>
+    <div class="logo letter v1"></div>
+    <div class="logo letter a2"></div>
+    <div class="logo letter a1"></div>
+    <div class="logo letter s3"></div>
+    <div class="logo letter s2"></div>
+    <div class="logo letter s1"></div>
+    <div class="logo dot i"></div>
+    <div class="logo dot s"></div>
+  </div>
+
+  <div class="rellax" data-rellax-speed="7" >
+    <div class="scanline-container">
+      <div class="scanline" style="height: 0.6px; transform: translateY(118px);"></div>
+      <div class="scanline" style="height: 1.0px; transform: translateY(130px);"></div>
+      <div class="scanline" style="height: 1.5px; transform: translateY(142px);"></div>
+      <div class="scanline" style="height: 2.0px; transform: translateY(154px);"></div>
+      <div class="scanline" style="height: 2.5px; transform: translateY(166px);"></div>
+      <div class="scanline" style="height: 3.0px; transform: translateY(178px);"></div>
+      <div class="scanline" style="height: 3.5px; transform: translateY(190px);"></div>
+      <div class="scanline" style="height: 4.0px; transform: translateY(202px);"></div>
+      <div class="scanline" style="height: 4.5px; transform: translateY(214px);"></div>
+      <div class="scanline" style="height: 5.0px; transform: translateY(226px);"></div>
+      <div class="scanline" style="height: 5.5px; transform: translateY(238px);"></div>
+      <div class="scanline" style="height: 6.0px; transform: translateY(250px);"></div>
+      <div class="scanline" style="height: 6.5px; transform: translateY(262px);"></div>
+      <div class="scanline" style="height: 7.0px; transform: translateY(274px);"></div>
+      <div class="scanline" style="height: 7.5px; transform: translateY(286px);"></div>
+      <div class="scanline" style="height: 8.0px; transform: translateY(298px);"></div>
+      <div class="scanline" style="height: 8.5px; transform: translateY(310px);"></div>
+      <div class="scanline" style="height: 9.0px; transform: translateY(322px);"></div>
+      <div class="scanline" style="height: 9.5px; transform: translateY(334px);"></div>
+      <div class="scanline" style="height: 10.0px; transform: translateY(346px);"></div>
+      <div class="scanline" style="height: 10.5px; transform: translateY(358px);"></div>
+      <div class="scanline" style="height: 11.0px; transform: translateY(370px);"></div>
+      <div class="scanline" style="height: 13.0px; transform: translateY(382px);"></div>
+      <div class="scanline" style="height: 15.0px; transform: translateY(396px);"></div>
+      <div class="scanline" style="height: 17.0px; transform: translateY(412px);"></div>
+      <div class="scanline" style="height: 19.0px; transform: translateY(430px);"></div>
+      <div class="scanline" style="height: 21.0px; transform: translateY(450px);"></div>
+      <div class="scanline" style="height: 23.0px; transform: translateY(472px);"></div>
+      <div class="scanline" style="height: 25.0px; transform: translateY(496px);"></div>
+      <div class="scanline" style="height: 27.0px; transform: translateY(522px);"></div>
+      <div class="scanline" style="height: 29.0px; transform: translateY(550px);"></div>
+      <div class="scanline" style="height: 31.0px; transform: translateY(580px);"></div>
+      <div class="scanline" style="height: 33.0px; transform: translateY(612px);"></div>
+      <div class="scanline" style="height: 244px; transform: translateY(646px);"></div>
+    </div>
+  </div>
+
+  <div class="gray1 rellax" data-rellax-speed="14" >
+    <p>
+      <strong>Savi</strong> is a
+      <strong>fast</strong> language for programmers
+      <br>who are <strong>passionate about their craft</strong>.
+    </p>
+  </div>
+
+  <div class="gray2 rellax" data-rellax-speed="21.5" >
+    <p>
+      <strong>Savi</strong> will
+      <strong>change the way you think</strong> about programming
+      <br>and equip you with the skills and tools you need
+      <br>to tackle <strong>more ambitious</strong> technical challenges,
+      <br>and <strong>have fun</strong> doing it.
+    </p>
+  </div>
+
+  <div class="gray3 rellax" data-rellax-speed="28" >
+    <p>
+      <strong>Savi</strong> is here to help you write blazing-fast,
+      <br><strong>concurrent</strong> software that is
+      <br><strong>memory-safe</strong> and <strong>data-race-free</strong>.
+    </p>
+  </div>
+
+  <p style="margin-top: 75em; margin-bottom: 5em;">
+    Click <strong>below</strong> to learn more.
+  </p>
+
+  <div class="footer">
+    <p><a href="./concepts">Begin</a></p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+  const rellax = new Rellax('.rellax');
+</script>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.1.0/markdown-it.min.js" integrity="sha512-PKP2kuWuLFN4vcsGg5MQI/Z7AzGsQZGiVCpmchDik0hWie1MCx1k+lGn7YJNoU77NyufcFi2ra21exAdEIIXNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/demo.js"></script>
+    <script src="/assets/js/markdown.js"></script>
+  </body>
+</html>

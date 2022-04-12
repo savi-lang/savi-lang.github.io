@@ -1,0 +1,71 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.section-left ul {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Comfortaa', sans-serif; */
+  /* font-family: 'Didact Gothic', sans-serif; */
+  font-family: 'Darker Grotesque', sans-serif;
+  letter-spacing: 0.042em;
+  font-kerning: none;
+  opacity: 0.8;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+}
+li a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header h1 {
+  font-size: 37.5px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.section-left h1 {
+  font-size: 28px;
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.section-left ul {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li::marker {
+  content: ">";
+}
+.section-left ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: -15px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
+pre {
+  font-size: 12px;
+}
+
+p>code {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+code.big {
+  font-size: 16px;
+  display: block;
+  padding: 5px 0;
+  font-weight: 900;
+}
+
+.highlight .gs  { font-weight: bold; }
+.highlight .ge  { font-style: italic; }
